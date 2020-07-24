@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Fruits Show Page</h1>
+        The <b><%=fruit.name%></b> is of <%=fruit.color%> color.
+        <br>
+        <% if(fruit.readyToEat === true) { %>
+            It is ready to eat.
+        <% } else { %>
+            It is not ready to eat.
+        <% } %>
+    </body>
+</html>
